@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Apple</title>
+   <style>
+     @font-face {
+    font-family: "Apple";
+    src: url(https://raw.githubusercontent.com/AppleDesignResources/SanFranciscoFont/master/SanFranciscoDisplay-Thin.otf) format("truetype");
+}
+       
+       div.Tim{
+           text-align: center;
+           margin: -30px;
+       }
+       
+       div.Tim img{
+          border: 10px solid gray;
+       }
+       
+       div.Tim h2{
+           margin: -40px;
+       }
+     
+     div.Logo{
+     text-align: center;
+     background: url("http://wallpaperswide.com/download/apple_ios_mountains_and_galaxy-wallpaper-1920x1080.jpg");
+     background-size: cover;
+     }
+     header{
+     text-align: center;
+
+     }
+     img{
+     margin: 50px;
+     height: 150px;
+     width: 150px;
+     }
+     
+     #Menu li{
+     color: white;
+     display: inline-block;
+     /*position: relative;*/
+     padding: 5px 15px 5px 15px;
+     margin: -5px 10px -10px 10px;
+     font-size: 20px;
+     background: gray;
+     overflow: hidden;
+     font-family: "Apple", Verdana, Tahoma;
+     }
+     
+     h1{
+     font-family: "Apple", Verdana, Tahoma;
+     font-size: 30px;
+     color: white;
+     text-align: center;
+     margin: -50px 0 0 0;
+     }
+     
+     a:link{
+     color:inherit;
+     text-decoration: none;
+     }
+     
+     a:visited{
+     color:inherit;
+     text-decoration: none;
+     }
+     
+     #Menu{
+      padding: 10px ;
+      margin: 14px 0 0 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+     
+     #Menu li:hover{
+     background: black;
+     transition: 0.5s;
+         float: none;
+     }
+       
+       #Menu ul{
+    max-height: 0;
+    -webkit-transition: max-height 0.2s ease-in;
+    transition: max-height 0.2s ease-in;
+    display: none;
+    //opacity: 0;
+    margin: 9px 0 0 0;
+    position: absolute;
+       }
+       
+       #Menu ul li{
+        margin: -4px -10px -10px -55px;
+        padding: 10px 18px 10px 11px;
+        display: block; 
+       }
+       
+    #Menu li:hover > ul{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    max-height: 100px;
+        
+    }
+       
+     
+     a.Main{
+     color: black;
+     }
+     
+     a.Main:hover{
+     color: white;
+     transition: 0.1s;
+     }
+     
+     p{
+     font-family: "Apple", Verdana, Tahoma;
+     font-size: 20px;
+     text-align: center;
+     margin: 30px 20px 30px 20px;
+     }
+       
+       
+    h2{
+       text-align: center;
+    
+       font-family: "Apple", Verdana, Tahoma;
+    }
+     
+     @media (max-width: 1335px){
+     p{
+     margin: 50px 20px 50px 20px;
+     }
+     img {
+     width: 145px;
+     height: 145px;
+     background
+     }
+     li{
+       display: block;
+       font-size: 40px;
+     
+       }
+            h1{
+     margin: px 0 0 0;
+     
+     }
+     ul{
+       margin: -px 0 0 0;
+       }
+     }
+     }
+       
+     
+   </style>
+  </head>
+  <body>
+   <div class = "Logo">
+    <img src = "https://t1.rbxcdn.com/194fb681e5f5deb47a79566d0bdf3df5">
+   </div>
+    <h1>Apple Inc.</h1>
+      <header>
+     <ul class = "Main Menu" id = "Menu">
+       <li><a href = "index.html" style = "text-decoration: none;" class = "Main">Main</a></li>
+       <li><a href = "history.html" style = "text-decoration: none;" class = "History of Apple">History of Apple</a>
+         <ul class = "History Sub Menu" id = "History_Menu">
+           <li><a href = "history.html" class = "History Paragraph" id = "Paragraph">Paragraph Form</a></li>
+           <li><a href = "history_Timeline.html" class = "History Timeline" id = "Timeline">Timeline</a></li>
+           </ul>
+         </li>
+       <li><a href = "products.html" style = "text-decoration: none;" class = "Products">Products</a>
+         <ul>
+             <li><a href = "products.html#Computer_Hardware">Computer Hardware</a></li>
+         <li><a href = "products.html#Computer_Software">Computer Software</a></li>
+        <li><a href = "products.html#Services">Services</a></li>
+           </ul>
+         </li>
+       <li><a href = "prosandcons.html" style = "text-decoration: none;" class = "Pros and Cons">Pros and Cons</a></li>
+       <li><a href = "finalquestion.html" style = "text-decoration: none;" class = "Final Question">The Final Question</a></li>
+     </ul>
+     </header>
+    <p class = "Description" id = "Description">Apple is a multinational company located in California, USA that designs, develop, and produce consumer electronics, such as computers, phones, tablets, etc (iPhones, iMacs, iPod, iPad). Apple ranks in number one in the most valuable company in the world costing at 178.1 billion dollars.</p>
+   <h2>Mission Statement</h2>
+   <p>“We believe that we are on the face of the earth to make great products and that’s not changing. We are constantly focusing on innovating. We believe in the simple not the complex. We believe that we need to own and control the primary technologies behind the products that we make, and participate only in markets where we can make a significant contribution. We believe in saying no to thousands of projects, so that we can really focus on the few that are truly important and meaningful to us. We believe in deep collaboration and cross-pollination of our groups, which allow us to innovate in a way that others cannot. And frankly, we don’t settle for anything less than excellence in every group in the company, and we have the self- honesty to admit when we’re wrong and the courage to change. And I think regardless of who is in what job those values are so embedded in this company that Apple will do extremely well.” By Tim Cook (Apple CEO)</p>
+   <div class = "Tim" id = "Cook">
+   <img src = "http://images.apple.com/pr/bios/images/cook_hero.png" style = "width: 400px; height: 450px;">
+       <h2>Tim Cook<br />Apple CEO<br />2011 -</h2>
+      </div>
+ </body>
+</html>

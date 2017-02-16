@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Apple</title>
+   <style>
+     @font-face {
+    font-family: "Apple";
+    src: url(https://raw.githubusercontent.com/AppleDesignResources/SanFranciscoFont/master/SanFranciscoDisplay-Thin.otf) format("truetype");
+}
+     
+     div.Logo{
+     text-align: center;
+     background: url("http://wallpaperswide.com/download/apple_ios_mountains_and_galaxy-wallpaper-1920x1080.jpg");
+     background-size: cover;
+     }
+     header{
+     text-align: center;
+
+     }
+       
+     div.Logo img{
+     margin: 50px;
+     height: 150px;
+     width: 150px;
+     }
+       
+       div.Image p{
+           font-size: 45px;
+       }
+       
+         div.Image img{
+           float: right;
+           clear: right;
+           border: 5px solid gray;
+       }
+     
+     li{
+     color: white;
+     display: inline;
+     padding: 5px 15px 5px 15px;
+     margin: 10px 10px 10px 10px;
+     
+     font-size: 20px;
+     background-color: gray;
+     overflow: hidden;
+     font-family: "Apple", Verdana, Tahoma;
+     }
+     
+     h1{
+     font-family: "Apple", Verdana, Tahoma;
+     font-size: 30px;
+     color: white;
+     text-align: center;
+     margin: -50px 0 0 0;
+     }
+     
+     a:link{
+     color:inherit;
+     text-decoration: none;
+     }
+     
+     a:visited{
+     color:inherit;
+     text-decoration: none;
+     }
+     
+     #Selection ul {
+      padding: 10px;
+      margin: 14px 0 0 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+     
+     #Selection li:hover{
+     background: black;
+     transition: 0.5s;
+     }
+       
+            #Menu li{
+     color: white;
+     display: inline-block;
+     /*position: relative;*/
+     padding: 5px 15px 5px 15px;
+     margin: -5px 10px -10px 10px;
+     font-size: 20px;
+     background: gray;
+     overflow: hidden;
+     font-family: "Apple", Verdana, Tahoma;
+     }
+     
+     #Menu{
+      padding: 10px ;
+      margin: 14px 0 0 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+     
+     #Menu li:hover{
+     background: black;
+     transition: 0.5s;
+         float: none;
+     }
+       
+       #Menu ul{
+    max-height: 0;
+    -webkit-transition: max-height 0.2s ease-in;
+    transition: max-height 0.2s ease-in;
+    display: none;
+    //opacity: 0;
+    margin: 9px 0 0 0;
+    position: absolute;
+       }
+       
+       #Menu ul li{
+        margin: -4px -10px -10px -55px;
+        padding: 10px 18px 10px 11px;
+        display: block; 
+       }
+       
+    #Menu li:hover > ul{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    max-height: 100px;
+        
+    }
+     
+     #History_Apple{
+     color: black;
+     }
+     
+     #History_Apple:hover{
+     color: white;
+     transition: 0.1s;
+     }
+     
+       #Paragraph{
+           color: black;
+       }
+       
+     p{
+     font-family: "Apple", Verdana, Tahoma;
+     font-size: 20px;
+     text-align: center;
+     margin: 30px 20px 30px 20px;
+     }
+     
+     @media (max-width: 1335px){
+     p{
+     margin: 50px 20px 50px 20px;
+     }
+     img {
+     width: 145px;
+     height: 145px;
+     
+     }
+     li{
+       display: block;
+       font-size: 40px;
+     
+       }
+            h1{
+     margin: px 0 0 0;
+     
+     }
+     ul{
+       margin: -px 0 0 0;
+       }
+     }
+     }
+     
+   </style>
+  </head>
+  <body>
+   <div class = "Logo">
+    <img src = "https://t1.rbxcdn.com/194fb681e5f5deb47a79566d0bdf3df5">
+   </div>
+    <h1>Apple Inc.</h1>
+      <header>
+          <ul class = "Main Menu" id = "Menu">
+       <li><a href = "index.html" style = "text-decoration: none;" class = "Main">Main</a></li>
+       <li><a href = "history.html" style = "text-decoration: none;" class = "History of Apple" id = "History_Apple">History of Apple</a>
+         <ul class = "History Sub Menu" id = "History_Menu">
+           <li><a href = "history.html" class = "History Paragraph" id = "Paragraph">Paragraph Form</a></li>
+           <li><a href = "history_Timeline.html" class = "History Timeline" id = "Timeline">Timeline</a></li>
+           </ul>
+         </li>
+       <li><a href = "products.html" style = "text-decoration: none;" class = "Products">Products</a>
+         <ul>
+             <li><a href = "products.html#Computer_Hardware">Computer Hardware</a></li>
+         <li><a href = "products.html#Computer_Software">Computer Software</a></li>
+        <li><a href = "products.html#Services">Services</a></li>
+           </ul>
+         </li>
+       <li><a href = "prosandcons.html" style = "text-decoration: none;" class = "Pros and Cons">Pros and Cons</a></li>
+       <li><a href = "finalquestion.html" style = "text-decoration: none;" class = "Final Question">The Final Question</a></li>
+     </ul>
+          <div class = "Selection" id = "Selection">
+          <ul>
+          <li><a href = "history.html" class = "Paragraph" id = "Paragraph">Paragraph</a></li>
+           <li><a href = "history_Timeline.html" class = "Timeline" id = "Timeline">Timeline</a></li>
+          </ul>
+          </div>
+     </header>
+      <div class = "Image" id = "Image">
+      <p><img src = "http://i.dailymail.co.uk/i/pix/2015/09/04/13/2BF7F6F900000578-3222400-Mr_Jobs_left_and_Mr_Wozniak_met_in_1971_when_they_were_introduce-a-5_1441371031295.jpg" style = "width: 450px; height: 300px;">Apple was started off by Steve Jobs and Steve Wozniak on April 1st 1976 in Steve Wozniak’s garage. <img src = "http://www.iosdoc.com/wp-content/uploads/2013/05/apple1-computer.jpg" style = "width: 300px; height: 250px;">Steve Jobs wanted everyone to have everyone their own personal computer(PC) so they(Mostly Steve Wozniak) created the first computer called “Apple I” (price: $666.66) which went on sale on July 1976.<img src = "http://oldcomputers.net/pics/appleii-system.jpg" style = "width: 500px; height: 350px"> After the first computer they built the second which called “Apple II” (April 1977)  which was hugely successful.<img src = "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple3.jpg" style = "width: 400px; height: 400px;"> Even though Apple II was successful they wanted a business type computer which came the third computer “Apple III” (May 19, 1980) but because the cooling system in the computer was poorly designed it had an issue of overheating which cause them to recall thousands of computers. <img src = "http://oldcomputers.net/pics/lisa2.jpg" style = "width: 400px; height: 300px;">Three years later Apple released there new computer called "Apple Lisa," but because of its high pricing at $9995.00 (Present Day = $24000.00) it failed to penetrate the business market. As time went by in June of 1985, after hiring John Sculley (Pepsi Corperation CEO), Sculley and the board of directors fired Job's from his position. John Sculley in charge of Apple he invested in software company such as Network Innovations, Styleware, Nashoba Systems and has established making new computers such as Apple IIgs/IIc.<img src = "http://oldcomputers.net/pics/appleiigs.jpg" style = "width: 520px; height: 405"> Although they have invested in making new computers and software companies their main source of income was their original Apple II. In 1996 Apple has acquired in Steve Job's company NeXT as it was beating Apple with their operating system which brought back Steve Jobs on July 9, 1997. With Jobs as the CEO he began to criticality restructured Apple. on Novemeber 10, 1997, Apple introduced online <a href = "https://www.apple.com/ca/" class = "Apple Store" id = "Apple_Store">Apple Store</a> which was a website that sold Apple products on the internet (Now known as Apple.com/.ca). Eventually Apple discontinued licensing their operating system to a third party manufacturers. At the same time(in 1998) Jobs designed a new Apple computer called iMac which became a sale smash, shipping about one million units each year, this has benefited the company by re-introducing their company to media and public. One year after their big hit, Apple has introduced their second model of iMac and iBook, a consumer-oriented laptop that supported WiFi. Shortly after Apple announced the opening of a line of Apple retail stores and declared their new computer operation system Mac OS X aimed at confsumers and professionals alike. on October 2001, iPod <img src = "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/ipod/ipodclassic/ipod-2nd-gen.png" style = "width: 300; height: 600px;"> was released to the public, it was a MP3 player that was able to store 1000 songs, because of the design and its capacity it stood at 76% of entire portable music device market. This resulted in enormous boost to Apple's financial. Since then apple has released 23 models of iPods(including iPod Mini, Touch, etc.) As soon as they saw a big profit in iPod they have began creating iPhone which was released on January 9, 2007. As it was different from its present time phone, such as iPhone included touch screen, apps, etc. Hundreds of customers lined up outside Apple stores nationwide on June 29, 2007. Three years after on January 27, 2010 Apple announced their tablet called "Apple iPad (iPad as we all know it) which was twice the screen size of an iPhone. As time goes by, on October 5, 2011, Steve Jobs past away from pancreatic cancer. As of now Apple has a new CEO(Tim Cook) has continued releasing new products such as iMac, iPhone, iPod, Macbook and is the most valuable company in the world!</p>
+    </div>
+     </body>
+</html>

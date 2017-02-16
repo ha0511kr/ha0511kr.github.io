@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+ <head>
+   <title>Apple</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+   <script>
+     function scrollFirst()
+     {
+            $('html, body').animate({ scrollTop: $('#Computer_Hardware').offset().top }, 'slow');
+     }   
+       
+     function scrollSecond() 
+     {
+            $('html, body').animate({ scrollTop: $('#Computer_Software').offset().top }, 'slow');
+     }
+       
+     function scrollThird() 
+     {
+            $('html, body').animate({ scrollTop: $('#Services').offset().top }, 'slow');
+     }
+     </script>     
+   <style>
+     @font-face {
+    font-family: "Apple";
+    src: url(https://raw.githubusercontent.com/AppleDesignResources/SanFranciscoFont/master/SanFranciscoDisplay-Thin.otf) format("truetype");
+         text-align: center;
+    }
+     
+     div.Logo{
+     text-align: center;
+     background: url("http://wallpaperswide.com/download/apple_ios_mountains_and_galaxy-wallpaper-1920x1080.jpg");
+     background-size: cover;
+     }
+       
+     div.List{
+     text-align: center;
+     }
+     
+     div.List img{
+     width: 10px;
+     height: 10px;
+     }
+       
+     header{
+     text-align: center;
+     }
+       
+     div.Logo img{
+     text-align: center;
+     margin: 50px;
+     height: 150px;
+     width: 150px;
+     }
+       
+     li{
+     color: white;
+     display: inline;
+     padding: 5px 15px 5px 15px;
+     margin: 10px 10px 10px 10px;
+     
+     font-size: 20px;
+     background-color: gray;
+     overflow: hidden;
+     font-family: "Apple", Verdana, Tahoma;
+     }
+       
+     h2{
+     text-align: center;
+     font-family: "Apple", Verdana, Tahoma; 
+     font-size: 40px;
+     }
+     
+     h1{
+     font-family: "Apple", Verdana, Tahoma;
+     font-size: 30px;
+     color: white;
+     text-align: center;
+     margin: -50px 0 0 0;
+     }
+     
+     a:link{
+     color:inherit;
+     text-decoration: none;
+     }
+     
+     a:visited{
+     color:inherit;
+     text-decoration: none;
+     }
+     
+     #Product_Drop ul{
+      padding: 10px;
+      margin: 14px 0 0 0;
+      background: rgba(0, 0, 0, 0.5);
+     }
+       
+       #Menu li{
+     color: white;
+     display: inline-block;
+     /*position: relative;*/
+     padding: 5px 15px 5px 15px;
+     margin: -5px 10px -10px 10px;
+     font-size: 20px;
+     background: gray;
+     overflow: hidden;
+     font-family: "Apple", Verdana, Tahoma;
+     }
+       
+     #Menu{
+      padding: 10px ;
+      margin: 14px 0 0 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+     
+     #Menu li:hover{
+     background: black;
+     transition: 0.5s;
+         float: none;
+     }
+       
+       #Menu ul{
+    max-height: 0;
+    -webkit-transition: max-height 0.2s ease-in;
+    transition: max-height 0.2s ease-in;
+    display: none;
+    //opacity: 0;
+    margin: 9px 0 0 0;
+    position: absolute;
+       }
+       
+       #Menu ul li{
+        margin: -4px -10px -10px -55px;
+        padding: 10px 18px 10px 11px;
+        display: block; 
+       }
+       
+    #Menu li:hover > ul{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    max-height: 100px;
+        
+    }
+     
+     li:hover{
+     background: black;
+     transition: 0.5s;
+     }
+     
+     a.Products{
+     color: black;
+     }
+     
+     a.Products:hover{
+     color: white;
+     transition: 0.1s;
+     }
+       
+       div.List p{
+           font-size: 25px;
+           background-color: gray;
+           color: white; 
+           margin: 50px 560px 50px 560px; 
+           /*padding: 0 -20px 0 -20px;*/
+       }
+     
+     p{
+     font-family: "Apple", Verdana, Tahoma;
+     font-size: 20px;
+     text-align: center;
+     margin: 30px 20px 30px 20px;
+     }
+     
+     div.Product{
+     text-align: center;
+     }
+    
+     @media (max-width: 1335px){
+     p{
+     margin: 50px 20px 50px 20px;
+     }
+     img {
+     width: 145px;
+     height: 145px;
+     }
+     li{
+       display: block;
+       font-size: 40px;
+     
+       }
+     h1{
+     margin: px 0 0 0;
+     }
+     ul{
+       margin: -px 0 0 0;
+       }
+     }
+       
+    
+       
+   </style>
+  </head>
+  <body>
+   <div class = "Logo">
+    <img src = "https://t1.rbxcdn.com/194fb681e5f5deb47a79566d0bdf3df5">
+   </div>
+      
+    <h1>Apple Inc.</h1>
+     <header>
+<ul class = "Main Menu" id = "Menu">
+       <li><a href = "index.html" style = "text-decoration: none;" class = "Main">Main</a></li>
+       <li><a href = "history.html" style = "text-decoration: none;" class = "History of Apple">History of Apple</a>
+         <ul class = "History Sub Menu" id = "History_Menu">
+           <li><a href = "history.html" class = "History Paragraph" id = "Paragraph">Paragraph Form</a></li>
+           <li><a href = "history_Timeline.html" class = "History Timeline" id = "Timeline">Timeline</a></li>
+           </ul>
+         </li>
+       <li><a href = "products.html" style = "text-decoration: none;" class = "Products">Products</a>
+         <ul>
+             <li><a href = "products.html#Computer_Hardware">Computer Hardware</a></li>
+         <li><a href = "products.html#Computer_Software">Computer Software</a></li>
+        <li><a href = "products.html#Services">Services</a></li>
+           </ul>
+         </li>
+       <li><a href = "prosandcons.html" style = "text-decoration: none;" class = "Pros and Cons">Pros and Cons</a></li>
+       <li><a href = "finalquestion.html" style = "text-decoration: none;" class = "Final Question">The Final Question</a></li>
+     </ul>
+     </header>
+   <div class = "Product drop" id = "Product_Drop">
+   <ul>
+    <li><a href = "#" onclick = "scrollFirst();">Computer Hardware</a></li>
+    <li><a href = "#" onclick = "scrollSecond();">Computer Software</a></li>
+    <li><a href = "#" onclick = "scrollThird();">Services</a></li>
+    </ul>
+    </div>
+   <div class = "List">
+   <h2 class = "Computer Hardware" id = "Computer_Hardware">Computer Hardware:</h2>
+   <img src = "http://cdn5.thinkcomputers.org/wp-content/uploads/2015/05/imac-2015.jpg" style = "width: 1000px; height: 720px">
+   <p>iMac</p>
+   <img src = "http://images.apple.com/iphone/trade-up/images/og.jpg?201702022216" style = "width: 1000px; height: 540px;">
+   <p>iPhone</p>
+   <img src = "https://store.storeimages.cdn-apple.com/4974/as-images.apple.com/is/image/AppleInc/aos/published/images/a/pp/apple/tv/apple-tv-hero-select-201510?wid=538&hei=535&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=sRmkv3" style = "width: 500px; height: 500px;">
+   <p>Apple TV</p>
+   <img src = "https://9to5mac.files.wordpress.com/2016/05/best-buy-apple-watch-sale.jpg?quality=82&strip=all&w=1600" style = "width: 800px; height: 400px;">
+   <p>Apple Watch</p>
+   <h2 class = "Computer Software" id = "Computer_Software">Computer Software:</h2>
+   <img src = "https://cdn2.pcadvisor.co.uk/cmsdata/features/3616914/iOS-8-vs-iOS-9-comparison-1.jpg" style = "width: 800px; height: 600px;">
+   <p>iOS<br />(For Apple handheld devices)</p>
+   <img src = "http://cdn.osxdaily.com/wp-content/uploads/2014/06/osx_yosemite-finder-view.jpg" style = "width: 1000px; height: 600px;">
+   <p>OS X<br />(For Apple Computers)</p>
+   <img src = "https://upload.wikimedia.org/wikipedia/en/5/5c/WatchOS2applewatch.png" style = "width: 423px; height: 500px;">
+   <p>watchOS<br />(For Apple Smart Watches)</p>
+   <h2 class = "Services" id = "Services">Services:</h2>
+   <img src = "http://www.appleibite.com/wp-content/uploads/2014/11/App-store-icon.png" style = "width: 512px; height: 512px;">
+   <p>App Store</p>
+   <img src = "http://applepaywatch.com/images/apple-pay-logo.png" style = "width: 900px; height: 400px;">
+   <p>Apple Pay</p>
+   <img src = "http://logos-download.com/wp-content/uploads/2016/06/iTunes_logo_black.png" style = "width: 1000px; height: 300px;">
+   <p>iTunes</p>
+   <img src = "https://home-assistant.io/images/supported_brands/icloud.png" style  = "width: 700px; height: 550px;">
+   <p>iCloud</p>
+   </div>
+      
+    </body>
